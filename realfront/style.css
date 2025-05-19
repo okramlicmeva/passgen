@@ -1,0 +1,46 @@
+/* samo testiraj i vidi da li radi  */ 
+
+
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+
+}
+
+#wrapper {
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#center {
+  width:300px;
+  height:300px;
+  border:2px solid silver;
+  border-radius:20px;
+  box-shadow: 0px 0px 20px gray;
+  display:flex;
+  flex-direction: row;
+}
+
+#center input {
+  padding:10px;
+  width:100%;
+  margin-top:10px;
+}
+
+/* login register na istoj strani */
+/* dodaj pass generator na svakoj strani - da moze i bez registracije da generise */
+/* dark / light theme */
+/* timer na svakoj sacuvanoj sifri */
+/* jednostavan dashboard 
+     - big ass box sa random pass gen 
+     - kliktanjem na kopi bacamo u kuki i to se baca u njegovu passwords stranu
+     - opcije za duzinu sifre - 
+     - opcije za komplikovaniju sifru 
+     - harmonika kao faq-u objasni sta radi i kako radi 
+     - nista vise nije potrebno */   

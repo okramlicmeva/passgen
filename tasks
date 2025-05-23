@@ -1,0 +1,3 @@
+//jwt, cookieparser, middleware // 22.may
+//enkriptuj sifru / ubaci vise slojeva - eksperimentisi malo vise ..// bcryptjs podesen
+// napravi register page u potpunosti i testiraj na svaki moguci nacin // tek treba odraditi/ rute smo namestili, nesto cemo iskopati. 

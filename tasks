@@ -1,3 +1,4 @@
 //jwt, cookieparser, middleware // 22.may
 //enkriptuj sifru / ubaci vise slojeva - eksperimentisi malo vise ..// bcryptjs podesen
 // napravi register page u potpunosti i testiraj na svaki moguci nacin // tek treba odraditi/ rute smo namestili, nesto cemo iskopati. 
+//promeni github usera, postujes sa starim ipsilone user-om, umesto sa novim okram (okram licmeva) - ako opet zajebem nesto roknucu se 

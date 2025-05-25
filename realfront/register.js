@@ -1,9 +1,9 @@
-document.querySelector("#registrationForm").addEventListener("submit", async (e)=>{
+document.querySelector(".registerForm").addEventListener("submit", async (e)=>{
 e.preventDefault();
 
 const user= {
   name:document.querySelector("#name").value,
-  email:document.querySelector("#email").value,
+  email:document.querySelector("#emailReg").value,
   password:document.querySelector("#password").value, 
   country:document.querySelector("#country").value
 }

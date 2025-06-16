@@ -10,6 +10,7 @@
 
 body {
   display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width:100vw;
@@ -23,6 +24,7 @@ body {
   border:1px solid black;
   border-radius:25px;
   display:flex;
+
 }
 
 
@@ -126,6 +128,27 @@ input.registerBtn,  input.loginBtn {
 
 
 
+
+
+
+
+
+
+.topNotification {
+  width:30%;
+  height:25px;
+  background-color:#C21E56;
+  border-radius:6px;
+  margin-top:20px;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
 /* login register na istoj strani */
 /* dodaj pass generator na svakoj strani - da moze i bez registracije da generise */
 /* dark / light theme */
@@ -137,3 +160,6 @@ input.registerBtn,  input.loginBtn {
      - opcije za komplikovaniju sifru 
      - harmonika kao faq-u objasni sta radi i kako radi 
      - nista vise nije potrebno */   
+
+
+

@@ -1,0 +1,202 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+
+}
+
+
+#navBar {
+  width:80%;
+  padding-top:10px;
+  padding-bottom:10px;
+  box-shadow: 0 0px 20px -10px silver;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:15px;
+  margin-top:20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#right {
+  width:50%;
+  display:flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#left {
+  width:50%;
+  display:flex;
+  align-items: center;
+}
+
+.profile {
+  width:20%;
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-left:10px;
+  border:1px solid silver;
+  border-radius:10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+
+.randombuttons {
+ width:15%;
+ padding-top:5px;
+ padding-bottom:5px;
+ border:1px solid silver;
+ margin-right:10px;
+ border-radius:10px;
+ text-align: center;
+ text-transform: uppercase;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+section {
+  width:80%;
+  height:400px;
+  background-color:white;
+  box-shadow: 0 0px 20px -10px silver;
+  margin-top:100px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:16px;
+  display:flex;
+}
+
+#generatePass {
+  width:70%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.genpasscard {
+width:30%;
+height:30%;
+}
+
+.pass {
+  border-bottom:1px solid black;
+  text-align: center;
+  font-size:40px;
+}
+
+.bottomHalf {
+  display:flex;
+  justify-content:space-between;
+  margin-top:10px;
+}
+
+.bottomHalf button {
+  border:1px solid silver;
+  background-color:transparent;
+  padding:10px;
+  border-radius:8px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  cursor: pointer;
+}
+
+
+#genPassDesscription {
+  width:30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+#genPassDesscription .title {
+  width:100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:40px;
+  padding:50px;
+}
+
+p.minidesc {
+  color:silver;
+  text-transform: uppercase;
+
+}
+
+
+/* taost test */
+
+.jump {
+  width:200px;
+  border:1px solid silver;
+  border-radius:5px;
+  position:absolute;
+  top:5px;
+  right:5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding:5px;
+  row-gap:5px;
+}
+
+.jumpOut {
+  width:100%;
+
+  border:2px solid orange;
+  color:black;
+  text-align: center;
+  position:relative;
+  border-radius:8px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article {
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:50px;
+}
+
+
+@media only screen and (max-width: 1400px) {
+  #navBar {
+    flex-direction: column;
+
+  }
+
+  #right {
+    flex-direction: column;
+    width:100%;
+
+  }
+
+  #left {
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  
+.profile{
+  margin-left:0px;
+}
+
+.randombuttons {
+  margin-right:0;
+}
+
+  .randombuttons, .profile {
+    border:none;
+  }
+}
